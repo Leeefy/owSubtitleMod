@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "owSubtitlesMod.dll",
+  "author": "Ki_ii",
+  "name": "owSubtitlesMod",
+  "uniqueName": "Ki_ii.owSubtitlesMod",
+  "version": "0.1.0",
+  "owmlVersion": "2.15.1",
+  "dependencies": []
+}
