@@ -1,4 +1,46 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
-  "enabled": true
+  "enabled": true,
+   "settings": {
+
+      "seperator1": {
+         "type": "separator"
+      },
+
+      "X-pos": {
+         "type": "slider",
+         "min": 0,
+         "max": 100,
+         "value": 75,
+         "tooltip": "The position of the subtitles horizontally"
+      },
+
+      "Y-pos": {
+         "type": "slider",
+         "min": 0,
+         "max": 100,
+         "value": 75,
+         "tooltip": "The position of the subtitles vertically"
+      },
+
+      "seperator2": {
+         "type": "separator"
+      },
+
+      "X-size": {
+         "type": "slider",
+         "min": 0,
+         "max": 100,
+         "value": 75,
+         "tooltip": "The size of the subtitles horizontally"
+      },
+
+      "Y-size": {
+         "type": "slider",
+         "min": 0,
+         "max": 100,
+         "value": 75,
+         "tooltip": "The size of the subtitles vertically"
+      }
+   }
 }
