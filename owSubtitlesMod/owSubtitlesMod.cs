@@ -12,6 +12,7 @@ public class owSubtitlesMod : ModBehaviour
    private int _Xpos;
    private int _Ypos; 
    private int _Xsize;
+   private int _distSensitivity;
    private int _sensitivity;
    private Transform _player;
    private OWScene _currentScene;
@@ -53,7 +54,7 @@ public class owSubtitlesMod : ModBehaviour
       {
          float distance = Vector3.Distance(audiosource.transform.position, _player.position);
 
-         if(audiosource.isPlaying && distance <= (_sensitivity * 1.0f))
+         if(audiosource.isPlaying && distance <= (_distSensitivity * 1.0f) && audiosource.volume >= _sensitivity/100f)
          {
             _subtitleText +=  distance.ToString("n2") + "m: " + audiosource.name + "\n";
          }
@@ -63,6 +64,7 @@ public class owSubtitlesMod : ModBehaviour
       _Ypos = ModHelper.Config.GetSettingsValue<int>("Y-pos");
       _Xsize = ModHelper.Config.GetSettingsValue<int>("Font size");
       _sensitivity = ModHelper.Config.GetSettingsValue<int>("Sensitivity");
+      _distSensitivity = ModHelper.Config.GetSettingsValue<int>("Distance");
       var style = new GUIStyle 
       {
          font = _hudFont,

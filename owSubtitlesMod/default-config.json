@@ -37,10 +37,18 @@
 
       "Sensitivity": {
          "type": "slider",
-         "min": 1,
+         "min": 0,
          "max": 100,
          "value": 50,
          "tooltip": "The sensitivity of the subtitles"
+      },
+
+      "Distance": {
+         "type": "slider",
+         "min": 1,
+         "max": 100,
+         "value": 50,
+         "tooltip": "The distance that the subtitles will pick up noise"
       }
    }
 }
