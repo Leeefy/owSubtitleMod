@@ -12,7 +12,7 @@
          "min": 0,
          "max": 2000,
          "value": 75,
-         "tooltip": "The position of the subtitles horizontally (requires reloading into expedition)"
+         "tooltip": "The position of the subtitles horizontally"
       },
 
       "Y-pos": {
@@ -20,7 +20,7 @@
          "min": 0,
          "max": 2000,
          "value": 75,
-         "tooltip": "The position of the subtitles vertically (requires reloading into expedition)"
+         "tooltip": "The position of the subtitles vertically"
       },
 
       "seperator2": {
@@ -32,7 +32,15 @@
          "min": 0,
          "max": 100,
          "value": 25,
-         "tooltip": "The size of the subtitles font (requires reloading into expedition)"
+         "tooltip": "The size of the subtitles font"
+      },
+
+      "Sensitivity": {
+         "type": "slider",
+         "min": 1,
+         "max": 100,
+         "value": 50,
+         "tooltip": "The sensitivity of the subtitles"
       }
    }
 }
