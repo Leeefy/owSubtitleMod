@@ -10,37 +10,29 @@
       "X-pos": {
          "type": "slider",
          "min": 0,
-         "max": 100,
+         "max": 2000,
          "value": 75,
-         "tooltip": "The position of the subtitles horizontally"
+         "tooltip": "The position of the subtitles horizontally (requires reloading into expedition)"
       },
 
       "Y-pos": {
          "type": "slider",
          "min": 0,
-         "max": 100,
+         "max": 2000,
          "value": 75,
-         "tooltip": "The position of the subtitles vertically"
+         "tooltip": "The position of the subtitles vertically (requires reloading into expedition)"
       },
 
       "seperator2": {
          "type": "separator"
       },
 
-      "X-size": {
+      "Font size": {
          "type": "slider",
          "min": 0,
          "max": 100,
-         "value": 75,
-         "tooltip": "The size of the subtitles horizontally"
-      },
-
-      "Y-size": {
-         "type": "slider",
-         "min": 0,
-         "max": 100,
-         "value": 75,
-         "tooltip": "The size of the subtitles vertically"
+         "value": 25,
+         "tooltip": "The size of the subtitles font (requires reloading into expedition)"
       }
    }
 }
